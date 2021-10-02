@@ -4,6 +4,8 @@ from setuptools import setup, find_packages
 setup(
     author="xxx yyy",
     description="my own arithmatic package",
+    long_description="my own arithmatic package for testing",
+    long_description_content_type="text/markdown",
     name="mycal",
     version="0.1.0",
     packages=find_packages(include=["mycal", "mycal.*"]),
