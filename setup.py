@@ -10,5 +10,14 @@ setup(
     version="0.1.0",
     packages=find_packages(include=["mycal", "mycal.*"]),
     install_requires=[],
-    python_requires='>=3.0'
+    python_requires='>=3.0',
+    classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+    ]
 )

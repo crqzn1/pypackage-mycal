@@ -19,3 +19,11 @@ https://test.pypi.org/project/mycal/
 $ pip install -i https://test.pypi.org/simple/ mycal
 ```
 
+### cookiecutter
+```bash
+$ mkdir mycalc_cookiecutter
+$ cd mycalc_cookiecutter/
+$ pip install cookiecutter
+$ cookiecutter <template_url>
+$ cookiecutter https://github.com/audreyr/cookiecutter-pypackage
+```
